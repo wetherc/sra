@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# But descend into directories
+!*/
+
+# but still exclude generated folders
+*.egg-info/
+*.ipynb_checkpoints/
+
+# And permit certain filetypes
+!.gitignore
+!*.py
+!*.ipynb
+
+# And certain folders, regardless of content
+!*assets/*
