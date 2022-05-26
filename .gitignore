@@ -15,3 +15,4 @@
 
 # And certain folders, regardless of content
 !*assets/*
+!*references/*
